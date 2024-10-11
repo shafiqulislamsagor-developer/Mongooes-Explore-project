@@ -3,4 +3,4 @@ import { studentController } from './student.controller';
 
 export const StudentRouter = express.Router();
 
-StudentRouter.post('/create-student', studentController.createStudent)
+StudentRouter.post('/create-student', studentController.createStudent);
